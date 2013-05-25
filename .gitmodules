@@ -7,3 +7,6 @@
 [submodule "lib/layout"]
 	path = lib/layout
 	url = ../../enyojs/layout.git
+[submodule "lib/amfx"]
+	path = lib/amfx
+	url = git@github.com:emilkm/enyo-amf.git
