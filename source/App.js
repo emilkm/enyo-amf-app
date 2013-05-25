@@ -7,15 +7,15 @@ enyo.kind({
         enyo.amf.init("amfphp", "server/amf.php");
     },
     components:[
-        {kind: "onyx.Toolbar", content: "Hello World"},
+        {kind: "onyx.Toolbar", content: "enyo-amf - AMF 3 JavaScript Client library"},
         {kind: "enyo.Scroller", fit: true, components: [
             {name: "main", classes: "nice-padding", allowHtml: true}
         ]},
         {kind: "onyx.Toolbar", components: [
-            {kind: "onyx.Button", content: "Tap me", ontap: "helloWorldTap"}
+            {kind: "onyx.Button", content: "Send Request", ontap: "sendRequest"}
         ]}
     ],
-    helloWorldTap: function(inSender, inEvent) {
+    sendRequest: function(inSender, inEvent) {
         this.$.main.addContent("ping<br/>");
         var amfx = new enyo.Amfx({
             source: "test",
