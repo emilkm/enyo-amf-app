@@ -1,6 +1,8 @@
-bootplate
-=========
+enyo-amf sample app
+===================
 
-Application template for packaged Enyo
+Sample application for [enyo-amf](https://github.com/emilkm/enyo-amf/) based on enyo bootplate.
 
-Refer to the [Wiki](https://github.com/enyojs/enyo/wiki/Bootplate) for how to get started.
+
+
+
