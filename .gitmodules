@@ -9,4 +9,4 @@
 	url = ../../enyojs/layout.git
 [submodule "lib/amfx"]
 	path = lib/amfx
-	url = https://github.com/emilkm/enyo-amf-app.git
+	url = ../../emilkm/enyo-amf.git
